@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html class="cui" lang="en" id="styleguide">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cisco Wish</title>
+        <link rel="stylesheet" href="../public/css/animate.css">
+        <link rel="stylesheet" href="../assets/css/cui-styleguide.min.css">
+        <link rel="stylesheet" href="../public/css/featherlight.min.css">
+        <link rel="icon" href="../assets/img/favicon.png" type="image/x-icon">
+         <link rel="stylesheet" href="../assets/css/custom.css">
+        <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+       <script src="../public/js/styleguide.js"></script>
+        <script src="../public/js/jquery-scrollto.js"></script>
+        <script src="../public/js/clipboard.js"></script>
+        <script src="../public/js/featherlight.min.js"></script>
+        <script src="../public/js/Markdown.Converter.js"></script>
+    </head>
+    <body class="styleguide">
+      <div class="content-fluid">
+	  <main>
+	    <!--Header portion Start here-->
+			      <div class="">
+					<header class="header header--tall">
+						<div class="header-bar container">
+							<!--<a class="btn btn--small btn--icon toggle-menu">
+								<span class="icon-list-menu"></span>
+							</a>-->
+							<a class="header-bar__logo">
+								<span class="icon-cisco"></span>
+							</a>
+							<div class="header-bar__main">
+								<div class="header-breadcrumbs">
+									<ul class="breadcrumb">
+										<li><a>Home</a></li>
+										<li><a>Ideation</a></li>
+										<li><a>Product CUCM</a></li>
+										<li><span>Mongo DB Support for CUCM</span></li>
+									</ul>
+								</div>
+								<div class="header-heading">
+									<h1 class="page-title">Cisco Wish</h1>
+									<div class="header-utilities">
+										<!--<a class="link">
+											<span class="icon-home"></span>
+										</a>
+										<a class="link">
+											<span class="icon-star"></span>
+										</a>
+										<a class="link">
+											<span class="icon-refresh"></span>
+										</a>
+										<a class="link">
+											<span class="icon-info-circle"></span>
+										</a>-->
+									</div>
+								</div>
+								<div class="header-menus">
+									<ul class="nav nav-tabs nav-tabs--tall">
+										<li class="tab">
+											<a><div class="tab__heading" title="Dashboard">Dashboard</div></a>
+										</li>
+										<li class="tab active">
+											<a><div class="tab__heading" title="Ideation">Ideation</div></a>
+										</li>
+										<!--<li class="tab">
+											<a><div class="tab__heading" title="Ideas Details">Ideas Details</div></a>
+										</li>-->
+									</ul>
+								</div>
+							</div>
+							<div class="header-toolbar">
+								<a class="avatar">John Doe</a>
+								<button class="btn btn--small btn--icon">
+									<span class="icon-search"></span>
+								</button>
+								<button class="btn btn--small btn--icon btn--negative">
+									<span class="icon-alert"></span>
+									<span class="btn__subtext">999+</span>
+								</button>
+								<button class="btn btn--small btn--icon btn--dkblue">
+									<span class="icon-mail"></span>
+									<span class="btn__subtext">34</span>
+								</button>
+								<!--<button class="btn btn--small btn--icon">
+									<span class="icon-cog"></span>
+								</button>-->
+							</div>
+						</div>
+					</header>
+				  </div>
+			   <!--Header portion End here-->
+			    <div class="clearfix"></div>
+	   <!--- Layout Satrt here-->
+	     <div class="content">
+		    <div class="container">
+			   <div class="containerbody">
+			   <!--Middle Content portion Start here-->
+			  <div class="row">
+			        <!--Middle Content Left portion Start here-->
+			           <div class="col-md-9">
+					     <div class="panel panel--loose depth-3">
+					   
+							<div class="clear"></div>
+							<div class="col-md-12 activityList">
+								<ul class="list list--aligntop">
+									<li>
+										<div class="activity activity--bordered postirelative">
+											<div class="scoreboard scoreboard--regular">
+												<div class="scoreboard__title">145 <span>Votes</span></div>												
+											</div>
+											<div class="activity__body">
+												<a class="activity__title">Mongo DB Support for CUCM</a>
+												<div class="activity__description">Focusing on harmony will help your organization thrive in the 
+												digital economy.
+												<p class="text-uppercase text-small">Tags: <a>Disruption &amp; Transformation</a>,
+												  <a>The Boardroom</a> 
+												  <a class="rFloat rTag" onclick="myFunctionaddtag()">
+												    <span class="label label--info">
+												  	  <span>Add Tag</span>
+													  <span class="icon-add-outline icon-medium"></span>
+												   </span>
+												 </a>
+												</p>
+												<div class="clear"></div>
+												<div class="col-md-6 rFloat" style="padding:0px;display:none;" id="addtag">
+												<div class="panel panel--ltgray panel--loose panel--raised panel--fluid">
+                
+													<div class="col-md-9 padding0px lFloat">
+													<div class="form-group ">
+														<div class="form-group__text">
+															<input type="text" name="" placeholder="Add tag">
+														</div>
+														</div>
+													</div>
+													<div class="col-md-2 padding0px lFloat">
+															<button type="submit" class="btn btn--primary btn--small" onclick="myFunctionAddTagSave()">Save</button>
+														</div>
+														<div class="clear"></div>
+												</div>
+												
+												</div>
+												<div class="activity__description">
+												   <div class="footerbox">
+													   <ul>
+														  <li><a href="#">Comments 30 <a onclick="myFunction()">
+														  <span class="icon-add-outline icon-medium"></span></a><li>
+														  <li><a href="#">Status- In Consideration</a></li>
+														  <li><a href="#">Some Other Stat 00</a></li>
+														</ul>
+													</div>
+												</div>
+												</div>
+												<div class="activity__description" id="myDIV">
+												  <form class="">
+													  <div class="col-md-12 inlineblock padding0px">
+														<div class="col-md-12 lFloat">
+														    <h6>Post Comment</h6>
+															<div class="form-group">
+																<div class="form-group__text">
+																	<textarea id="textarea1" rows="5" placeholder="Start typing to find similar ideas or post as barnd new..."></textarea>
+																	<label for="textarea1"></label>
+																</div>
+															</div>
+													   </div>
+													</div>
+													<div class="clear"></div>
+													<div class="formbtn">
+														<button type="submit" class="btn btn--primary btn--small">Post Comment</button>
+														<button class="btn btn--small">Cancel</button>
+													</div>
+												</div>
+										</div>
+									</li>
+									<li><div><h6>Comments (34)</h6><div></li>
+									<li>
+										<div class="activity activity--bordered postirelative">
+										   <div class="scoreboard scoreboard--regular">
+												<div class="scoreboard__title">245 <span>Votes</span></div>												
+											</div>
+											<div class="activity__body">
+												<a class="activity__title">Banking on Digital</a>
+												<div class="activity__description">Traditional bank branches haven't
+												changed much over the years. See how one CEO has moved from paper and long lines to true digital disruption.
+												<p class="text-uppercase text-small">Tags: <a>Agility &amp; Speed</a>,
+												<a>Disruption &amp; Transformation</a>,<a>Security</a>,<a>Technology &amp; Business Alignment</a></p>
+												</div>
+												<div class="activity__description">
+												   <div class="footerbox">
+													   <ul>
+														  <li><a href="#"><span class="icon-back icon-medium"></span> Reply</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="activity activity--bordered postirelative">
+											<div class="scoreboard scoreboard--regular">
+												<div class="scoreboard__title">15 <span>Votes</span></div>												
+											</div>
+											<div class="activity__body">
+												<a class="activity__title">Cybersecurity as a Growth Advantage</a>
+												<div class="activity__description">In an era of unparalleled disruption, companies need 
+												to begin viewing cybersecurity differently—beyond its traditional “defensive” 
+												role. Those that do will have a competitive advantage. These Secure Digitizers 
+												are strongly committed to growth through digital business models and offerings, with 
+												cybersecurity as a critical foundation. Learn how they are leading way in today’s digital economy.
+												<p class="text-uppercase text-small">Tags: <a>Agility &amp; Speed</a>,
+												<a>Disruption &amp; Transformation</a>,<a>Security</a></p>											
+												</div>
+												<div class="activity__description">
+												   <div class="footerbox">
+													   <ul>
+														  <li><a href="#"><span class="icon-back icon-medium"></span> Reply</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>										
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="alignCentr loadmrbtn"><button type="submit" class="btn btn--primary btn--small">Load More</button></div>
+						 </div>
+					   </div>
+					<!--Middle Content Left portion End here-->
+					
+					<!--Middle Content Right Sidebar portion Start here-->
+			           <div class="col-md-3">
+					      <div class="sidebar">
+							<div class="sidebar__header">
+								<!--<div class="sidebar__header-title">Cisco Prime</div>-->
+								<div class="toast toast--compressed">									
+									<div class="toast__body">
+										<div class="toast__title">Heading</div>
+										<div class="toast__message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</div>
+										<div class="aligncenter"><button class="btn btn--primary btn--small">Learn More</button></div>
+										
+									</div>
+								</div>
+							</div>
+							<ul>
+								<li class="sidebar__item"><a>Dashboard</a></li>
+								<li class="sidebar__item"><a>Monitor</a></li>
+								<li class="sidebar__drawer">
+									<a>Secondary Navigation</a>
+									<ul>
+										<li class="sidebar__item"><a>Submit New Idea</a></li>
+										<li class="sidebar__item"><a>All ideas <span class="label label--circle label--warning">20</span></a></li>
+										<li class="sidebar__item"><a>Surveys & Questionnaires <span class="label label--circle label--ltgray">12</span></a></li>
+									</ul>
+								</li>
+								<li class="sidebar__drawer">
+									<a>Ideas by Tags</a>
+									<ul>
+										<li class="sidebar__item"><a>Lorem ipsum <span class="label label--circle label--ltgray">112</span></a></li>
+										<li class="sidebar__item"><a>Consectetur <span class="label label--circle label--ltgray">50</span></a></li>
+										<li class="sidebar__item"><a>Aenean euismod <span class="label label--circle label--ltgray">22</span></a></li>
+										<li class="sidebar__item"><a>Proin gravida <span class="label label--circle label--ltgray">62</span></a></li>
+										<li class="sidebar__item"><a>Dolor sit amet <span class="label label--circle label--ltgray">29</span></a></li>
+										<li class="sidebar__item"><a>Nacus accumsan <span class="label label--circle label--ltgray">83</span></a></li>
+										<li class="sidebar__item"><a>Consectetur adipiscing <span class="label label--circle label--ltgray">96</span></a></li>
+										<li class="sidebar__item"><a>Adipiscing <span class="label label--circle label--ltgray">72</span></a></li>
+										<li class="sidebar__item"><a>Surveys & Questionnaires <span class="label label--circle label--ltgray">152</span></a></li>
+										<li class="sidebar__item"><a>Surveys & Questionnaires <span class="label label--circle label--ltgray">2</span></a></li>
+										<li class="sidebar__item"><a>Lorem ipsum <span class="label label--circle label--ltgray">112</span></a></li>
+										<li class="sidebar__item"><a>Consectetur <span class="label label--circle label--ltgray">50</span></a></li>
+										<li class="sidebar__item"><a>Aenean euismod <span class="label label--circle label--ltgray">22</span></a></li>
+										<li class="sidebar__item"><a>Proin gravida <span class="label label--circle label--ltgray">62</span></a></li>
+										<li class="sidebar__item"><a>Dolor sit amet <span class="label label--circle label--ltgray">29</span></a></li>
+										<li class="sidebar__item"><a>Nacus accumsan <span class="label label--circle label--ltgray">83</span></a></li>
+										<li class="sidebar__item"><a>Consectetur adipiscing <span class="label label--circle label--ltgray">96</span></a></li>
+										<li class="sidebar__item"><a>Adipiscing <span class="label label--circle label--ltgray">72</span></a></li>
+										<li class="sidebar__item"><a>Surveys & Questionnaires <span class="label label--circle label--ltgray">152</span></a></li>
+										<li class="sidebar__item"><a>Surveys & Questionnaires <span class="label label--circle label--ltgray">2</span></a></li>
+									</ul>
+								</li>
+								<li class="sidebar__drawer">
+									<a>Services</a>
+									<ul>
+										<li class="sidebar__item"><a>Network Services</a></li>
+										<li class="sidebar__item"><a>Mobility Services</a></li>
+									</ul>
+								</li>
+								<li class="sidebar__item"><a>Reports</a></li>
+							</ul>
+							<div class="sidebar__header">
+								<!--<div class="sidebar__header-title">Cisco Prime</div>-->
+								<div class="toast toast--compressed">									
+									<div class="toast__body">
+										<div class="toast__title">Heading</div>
+										<div class="toast__message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</div>
+										<div class="aligncenter"><button class="btn btn--primary btn--small">Learn More</button></div>	
+									</div>
+								</div>
+							</div>
+						</div>
+					   </div>
+					<!--Middle Content Right Sidebar portion End here-->
+				  <div class="clearfix"></div>
+			   </div>
+			   <!--Middle Content portion End here-->
+				</div>
+			</div>
+		 </div>
+		 <!--Footer portion Start here-->
+		 <footer class="footer footer--new footer--basic footer--compressed">
+			<div class="footer__links">
+				<ul class="list">
+					<li><a href="#" target="_blank">Contacts</a></li>
+					<li><a href="#" target="_blank">Feedback</a></li>
+					<li><a href="#" target="_blank">Site Map</a></li>
+					<li><a href="#" target="_blank">Terms & Conditions</a></li>
+					<li><a href="#" target="_blank">Privacy Statement</a></li>
+					<li><a href="#" target="_blank">Cookie Policy</a></li>
+					<li><a href="#" target="_blank">Trademarks</a></li>
+				</ul>
+			</div>
+		</footer>
+		<!--Footer portion End here-->
+	    <!--- Layout End here-->
+	   </main>
+	 </div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+       x.style.display = "none";
+    }
+}
+function myFunctionaddtag() {
+    var x = document.getElementById("addtag");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+       x.style.display = "none";
+    }
+}
+function myFunctionAddTagSave() {
+    var x = document.getElementById("addtag");
+  // alert('maya');
+    //   $("#addtag").style.display = "none";
+	  x.style.display = "none";
+
+}
+</script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

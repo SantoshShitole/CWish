@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<html class="cui" lang="en" id="styleguide">
+<head>
+  <meta charset="UTF-8">
+  <title>support-cisco-com</title>
+  <link rel="stylesheet" href="../public/css/animate.css">
+  <link rel="stylesheet" href="../assets/css/cui-styleguide.min.css">
+  <link rel="stylesheet" href="../public/css/featherlight.min.css">
+  <link rel="icon" href="../assets/img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="../assets/css/custom.css">
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery-bootstrap-modal-steps.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+  <script src="Scripts/app.js"></script>
+  <script src="Scripts/SupportCiscoWebAppControllers.js"></script>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" ng-app="SupportCiscoWebApp" ng-controller="SupportCiscoWebAppController">
+    <!-- Save for Web Slices (support-cisco-com.png) -->
+    <table id="Table_01" width="1349" height="2531" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td colspan="2">
+                <img src="images/support-cisco-com_01.jpg" width="1349" height="178" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2">
+                <img src="images/support-cisco-com_02.jpg" width="943" height="756" alt="">
+            </td>
+            <td>
+
+                <div class="" style="margin-left: 56px;">
+                    <button type="button" class="btn btn--primary btn--small" data-toggle="modal" data-target="#myModal"> Feedback </button>
+                </div>
+                <img src="images/support-cisco-com_03.jpg" width="406" height="585" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="images/support-cisco-com_04.jpg" width="406" height="171" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <img src="images/support-cisco-com_05.jpg" width="1349" height="1597" alt="">
+            </td>
+        </tr>
+    </table>
+    <!-- End Save for Web Slices -->
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row hide" data-step="1" id="first">
+                        <div class="row">
+                            <div class="col-md-12"><h6>Thank you for your interest</h6></div>
+                            <div class="col-md-12">
+                                <div class="col-md-4" style="display: block!important;">
+
+                                    <div class="toast" onclick="redirectFunction2('#second');">
+                                        <div class="toast__icon text-success icon-plus" style="display: block!important;"></div>
+                                        <div class="toast__body" style="display: block!important;">
+                                            <div class="toast__title">Give Feedback</div>
+                                            <div class="toast__message">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="toast">
+                                        <div class="toast__icon text-info icon-info-circle"></div>
+                                        <div class="toast__body">
+                                            <div class="toast__title">Knowledgebase</div>
+                                            <div class="toast__message">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="toast">
+                                        <div class="toast__icon text-warning icon-phone"></div>
+                                        <div class="toast__body">
+                                            <div class="toast__title">Contact Us</div>
+                                            <div class="toast__message">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row hide" data-step="2" id="second">
+                        <div class="row">
+                            <div class="col-md-12"><h6>What is your feedback John?</h6></div>
+                            <div class="col-md-12">
+
+                                <div class="col-md-6" style="display: block!important;">
+
+                                    <div class="toast" onclick="redirectFunction1('#third');">
+                                        <div class="toast__body" style="display: block!important;">
+                                            <div class="toast__title">This Cisco Product <i class="panelitag">– CUCM (Call Manager)</i></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6" style="display: block!important;">
+
+                                    <div class="toast">
+                                        <div class="toast__body" style="display: block!important;">
+                                            <div class="toast__title">Cisco Support Experience</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="clear" style="height:20px;"></div>
+                                <div class="col-md-6" style="display: block!important;">
+
+                                    <div class="toast">
+                                        <div class="toast__body" style="display: block!important;">
+                                            <div class="toast__title">Cisco Website</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6" style="display: block!important;">
+
+                                    <div class="toast">
+                                        <div class="toast__body" style="display: block!important;">
+                                            <div class="toast__title">Something Else</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row hide" data-step="3" id="third">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h6>Which is your feedback about?</h6>
+                            </div>
+                            <div class="col-md-12 emotilist" style="margin-top:10px;">
+                                <label>What do you think of this?</label>
+                                <ul style="margin-top:15px;padding:0px;">
+
+                                    <li><a href="#"><img src="../assets/img/if_angry_1325170.png"></a></li>
+                                    <li><a href="#"><img src="../assets/img/if_sad_1325172.png"></a></li>
+                                    <li><a href="#"><img src="../assets/img/if_shy_1325169.png"></a></li>
+                                    <li><a href="#"><img src="../assets/img/if_happy_1325173.png"></a></li>
+                                    <li><a href="#"><img src="../assets/img/if_love_1325176.png"></a></li>
+
+                                    <ul>
+                            </div>
+                            <div class="col-md-12">
+                                <form class="form-inline">
+                                    <div class="form-group col-md-12 inlineblock">
+                                        <div class="form-group__text">
+                                            <textarea id="textarea1" rows="1" placeholder="I’d really like a Persistent Chat support feature for Mongo DB"
+                                                      style="height:100px;" ng-change="onIdeaChange()" ng-model="ideaText"></textarea>
+                                            <label for="textarea1"></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <p class="text-uppercase text-small">Product:<a ng-repeat="p in selectedProducts">{{p}},&nbsp;</a></p>
+                                        <p class="text-uppercase text-small">
+                                            Tags:
+                                            <a ng-repeat="t in selectedTags">{{t}},&nbsp;</a>
+                                        </p>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="col-md-12 activityList">
+                                <div class="col-md-12"><h4>Similar Ideas</h4></div>
+                                <ul class="list list--aligntop">
+
+                                    <li ng-repeat="idea in similarIdeas">
+                                        <div class="activity activity--bordered postirelative" onclick="redirectFunction('ideationdetails.html');">
+                                            <div class="activity__body">
+                                                <a class="activity__title">{{idea.title}}</a>
+                                                <div class="activity__description">
+                                                    {{idea.description}}
+                                                    <p class="text-uppercase text-small">
+                                                        Tags: <a ng-repeat="tag in idea.ideaTags">{{tag}},</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="formbtn">
+                                <button type="submit" class="btn btn--primary btn--small" onclick="redirectFunction3('#four');">Post As New Idea</button>
+                                <button type="submit" class="btn btn--primary btn--small" title="Explore and Vote for Similar Ideas">Explore and Vote for Similar Ideas</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row hide" data-step="4" id="four">
+                        <div class="row">
+                            <div class="col-md-12"><h6>We highly appreciate your help to improve our products</h6></div>
+                            <div class="col-md-12" style="margin-top:10px;"><h7>Please login to your Cisco account to proceed further</h7></div>
+                            <div class="col-md-12">
+                                <form class="form-inline" style="margin-top:10px;">
+                                    <div class="form-group col-md-6 inlineblock">
+                                        <div class="form-group__text">
+                                            <input type="text" name="" size="" placeholder="Username"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-md-6 inlineblock">
+                                        <div class="form-group__text">
+                                            <input type="text" name="" size="" placeholder="Password"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="formbtn">
+                                        <button type="submit" class="btn btn--primary btn--small">Sign In</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row"><div style="height:20px;"></div></div>
+                        <div class="row">
+                            <div class="col-md-12"><h7>Don't have Cisco account?</h7></div>
+                            <div class="col-md-12" style="margin-top:10px;"><h7>No Problem. Just provide your email address</h7></div>
+                            <div class="col-md-12" style="margin-top:10px;">
+                                <form class="form-inline">
+                                    <div class="form-group col-md-6 inlineblock">
+                                        <div class="form-group__text">
+                                            <input type="email" name="" size="" placeholder="Email"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+
+                                </form>
+                                <div class="formbtn rFloat">
+                                    <button type="submit" class="btn btn--primary btn--small" onclick="redirectFunction4('#five');">Post My Idea</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row hide" data-step="5" id="five">
+                        <div class="row">
+                            <div class="col-md-12"><h5>We highly appreciate your help to improve our products</h5></div>
+                            <div class="col-md-12"><h6>Your idea was submitted successfully.<br>Thank you...</h6></div>
+                            <div class="clear"></div>
+                            <div class="formbtn ">
+                                <button type="submit" class="btn btn--primary btn--small" onclick="redirectFunction('ideationdetails.html');">Close</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--<div class="modal-footer" style="padding: 10px;    margin: 10px 0px 0px 0px;">
+                    <div class="btnPos">
+                      <button type="button" class="btn btn-default js-btn-step pull-left  btn--small" data-orientation="cancel" data-dismiss="modal"></button>
+                      <button type="button" class="btn btn-warning js-btn-step btn--small" data-orientation="previous" id="prev"></button>
+                      <button type="button" class="btn btn--primary btn--small js-btn-step" data-orientation="next" id="nextstep"></button>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        $('#myModal').modalSteps();
+        var redirectFunction = function (url) {
+            $('#myModal').remove();
+            return window.location.href = url;
+            //alert("Hello Maya");
+        };
+        var redirectFunction1 = function (selectedDiv) {
+            $(selectedDiv).removeClass("hide");
+            $('#second').addClass("hide");
+            //alert("Hello Maya");
+        };
+
+        var redirectFunction2 = function (selectedDiv2) {
+            $(selectedDiv2).removeClass("hide");
+            $('#first').addClass("hide");
+            //$('#nextstep').addClass("disabled");
+            //$('#prev').removeClass("disabled");
+            //$('#prev').attr( "data-step", '1' );
+            //$('#prev')("enabled","enabled");
+            //$('#prev').prop( "disabled", false );
+            //alert("Hello Maya");
+        };
+        var redirectFunction3 = function (selectedDiv3) {
+            $(selectedDiv3).removeClass("hide");
+            $('#third').addClass("hide");
+            $('#second').addClass("hide");
+            $('#first').addClass("hide");
+            //alert("Hello Maya");
+        };
+        var redirectFunction4 = function (selectedDiv4) {
+            $(selectedDiv4).removeClass("hide");
+            $('#four').addClass("hide");
+            $('#second').addClass("hide");
+            $('#first').addClass("hide");
+            $('#third').addClass("hide");
+            //alert("Hello Maya");
+        };
+        //window.location='same_page_url#id_of_the_div';
+
+
+        $('.emotilist ul li').click(function () {
+
+            //console.log("Clicked");
+            $('.emotilist li.active').removeClass('active');
+            $(this).addClass('active');
+        });
+    </script>
+</body>
+</html>
